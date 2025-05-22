@@ -27,10 +27,10 @@ const server = http.createServer((req, res) => {
     } else if (pathName == '/autor') {
         res.end(`
             <h1>Autor</h1>
-            <p>Nome: Hugo</p>
+            <p>Nome: Felipe</p>
             <h3>Formação academica</h3>
             <ul>
-                <li></li>
+                <li>Estudante de Ciências da Computação</li>
             </ul>
             <a href="index">Voltar</a>
         `);
